@@ -1,0 +1,135 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+/* h1 başlığı */
+h1{
+    text-align: center;
+    letter-spacing: 4px;
+}
+/* h2 başlığı */
+h2{
+    margin-left: 20px;
+    text-decoration: underline;
+    padding-bottom: 0em;
+}
+/* sağ kutuiçindeki parağraf */
+p{
+    margin-left: 20px;
+    text-indent: 55px;
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 0em;
+}
+/* çizgi için stil belirlerm başlıkta kullanıldı*/
+hr{
+    border: 1px solid rgb(227, 139, 41);
+}
+/* index,hakkımızda,iletişim kısımlarının stili */
+.yon{
+    color: rgb(187, 116, 30);
+    background-color: white;
+    border: 1px solid rgb(227, 139, 41);
+    margin-top: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* resmin üzerine gelince  */
+a:hover{
+    color: darkorange;
+}
+/* anasayfa,hakkımızda,iletişim kısımlarının toplu hareketi */
+.ust{
+    height: 15px;
+    background-color: white;
+    text-align: right;
+    color: azure;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* ana başlık "kırtasiye" */
+.alt{
+    background-color: white;
+    color: black;
+}
+/* ortadaki alan */
+section{
+    background-color: white;
+    height: 1100px;
+}
+/* soldaki kutu */
+.leftbox{
+    height: 1000px;
+    width: 350px;
+    background-color: white;
+    outline: solid rgb(227, 139, 41);
+    margin-left: 25px;
+    margin-top: 25px;
+    float: left;
+}
+/* sağdaki kutu üstteki kısım*/
+.rightbox{
+    height: 400px;
+    width: 800px;
+    background-color: white;
+    outline: solid rgb(227, 139, 41);
+    margin-top: 25px;
+    margin-right: 25px;
+    border-left: 5px;
+    border-top: 25px;
+    float: right;
+    text-align: justify;
+}
+/* sağda alttaki kısım resimler içeren bölüm */
+.kutu0{
+    height: 600px;
+    width: 800px;
+    background-color: darkcyan;
+    outline: solid rgb(227, 139, 41);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    float: right;
+}
+/* 5 ayrı satırdan oluşan alan-kutu0 ın içinde bulunur */
+.kutu1,.kutu2,.kutu3,.kutu4,.kutu5{
+    background-color: white;
+    border: 2px solid white;
+    height: 116px;
+    width: 771px;
+    padding-left: 25px;
+
+}
+/* resim alanı link içerir */
+.kutu{
+    background-color: rgb(186, 11, 63);
+    height: 80px;
+}
+/* resmin kendisi */
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+    border: 1px solid rgb(241, 166, 97);
+}
+/* resim üzerine gelince oluşacak değişiklik */
+img:hover{
+    border: 3px solid rgb(241, 166, 97);
+}
+/* alt kısım */
+footer{
+    height: 100px;
+    background-color: white;
+    color: chocolate;
+}
+/* liste özellikleri */
+ul{
+    list-style: square;
+}
