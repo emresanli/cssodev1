@@ -36,8 +36,6 @@ hr{
     padding-left: 5px;
     padding-right: 5px;
 }
-/* kutu içerisindeki link */
-
 /* anasayfa,hakkımızda,iletişim kısımlarının toplu hareketi */
 .ust{
     height: 15px;
@@ -60,14 +58,12 @@ section{
 }
 /* soldaki kutu */
 .leftbox{
-    height: 350px;
+    height: 400px;
     width: 400px;
     background-color: white;
     outline: solid rgb(227, 139, 41);
     margin-left: 25px;
     margin-top: 25px;
-    padding-left: 80px;
-    padding-top: 50px;
     float: left;
 }
 /* sağdaki kutu üstteki kısım*/
