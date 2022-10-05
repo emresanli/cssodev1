@@ -81,3 +81,9 @@ footer{
     background-color: white;
     color: chocolate;
 }
+a[href*=":"]{
+    color: chocolate;
+}
+li{
+    color: rgb(223, 234, 12);
+}

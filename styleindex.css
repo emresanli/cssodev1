@@ -133,3 +133,18 @@ footer{
 ul{
     list-style: square;
 }
+li:first-child{
+    color: rgb(29, 170, 100);
+}
+.orange{
+    color: orange;
+}
+li:nth-child(2n){
+    color:rgb(219, 156, 80)
+}
+li:nth-child(2n+1){
+    color: burlywood;
+}
+li:hover{
+    color:orange
+}
